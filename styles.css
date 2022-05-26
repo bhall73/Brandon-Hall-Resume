@@ -15,46 +15,15 @@ body {
     margin: auto;
 }
 
-#iframe {
-    max-width: 612px;
-    max-height: 100%; 
-    overflow: hidden;
-    z-index: 2;
-  }
-  
-  .responsive-wrapper {
-    position: relative;
-    height: 0; 
-    z-index: 2;     
-  }
-   
-  .responsive-wrapper iframe {
-    position: absolute;
+.responsive-iframe {
+    position: aboslute;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
     width: 100%;
     height: 100%;
-    
-    margin: 0;
-    padding: 0;
-    border: none;
-    z-index: 2;
-  }
-  
-  .responsive-wrapper-custom {
-    padding-bottom: 133%;
-    z-index: 2;
-  }
-  
-  .set-margin {
-    margin: 20px;
-    z-index: 2;
-  }
-  .center-block-horiz {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    z-index: 2;
-  }
+}
 
 
 
